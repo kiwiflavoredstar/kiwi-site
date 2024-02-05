@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blocc{
+    position: absolute;
+    width: 20vh;
+    height: 30vw;
+    background-image: url(img/shonny.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0px;
+}
+body{
+    overflow: hidden;
+}
+.button1{
+    background-color: rgb(80, 80, 80);
+    position: relative;
+    color: white;
+    width: 30vw;
+    height: 30vh;
+    font-size: 80px;
+}
+.butt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+.bigbuttondisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.gone{
+    display: none;
+    background-color: rgb(80, 80, 80);
+    position: relative;
+    color: white;
+    width: 30vw;
+    height: 30vh;
+    font-size: 80px;
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(141, 141, 141);
+}
+header {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contentContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contentBlock {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    width: 40vw;
+    height: 50vh;
+    background-color: rgb(66, 66, 66);
+    align-items: center;
+    padding: 20px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+.contentBlock2 {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    background-color: rgb(66, 66, 66);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+.thing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+    background-color: rgb(138, 255, 195);
+    border-radius: 10px;
+    padding: 2px;
+    border: black solid 2px;
+}
+.hideDeco {
+    text-decoration: none;
+    color: black;
+}
+.header2{
+    height: 30vh;
+}
+.fillerSpace{
+    height: 10vh;
+}
+.buttonContainer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+}
+button{
+    width: 150px;
+    height: 8vh;
+    margin-left: 6vh;
+    font-size: 30px;
+    background-color: rgb(143, 131, 216);
+    border: 2px solid;
+    border-radius: 10px;
+}
