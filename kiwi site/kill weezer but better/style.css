@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    position: fixed;
+    height: 585px;
+}
+
+#background {
+    background-image: url(img/empty.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 600px;
+    position: fixed;
+    width: 600px;
+}
+
+.killButton {
+    width: 150px;
+    height: 420px;
+
+}
+
+.killButtonContainer {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 585px;
+    align-items: end;
+}
+
+#retryContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 585px;
+    width: 600px;
+    display: none;
+}
