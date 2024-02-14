@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 img {
     position: fixed;
     height: 585px;
@@ -22,7 +23,6 @@ img {
 .killButton {
     width: 150px;
     height: 420px;
-
 }
 
 .killButtonContainer {
