@@ -14,6 +14,9 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
 }
+a{
+    color: rgb(3,143,203);
+}
 .contentContainer {
     display: flex;
     justify-content: space-evenly;
