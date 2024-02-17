@@ -49,14 +49,14 @@ function increaseFour() {
     }
 }
 
-function check(){
-    if(one == 2 && two == 9 && three == 5 && four == 9){
+function check() {
+    if (one == 2 && two == 9 && three == 5 && four == 9) {
         alert("correct!!")
     }
-    else if(one == 0 && two == 0 && three == 5 && four == 7){
+    if (one == 0 && two == 0 && three == 5 && four == 7) {
         alert("correct!!")
     }
-    else{
+    else {
         alert("nuh uh!!")
     }
 }
