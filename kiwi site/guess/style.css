@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(141, 141, 141);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(66, 66, 66);
+    border-bottom: black solid;
+}
+
+.elementContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.characterContainer {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.numberSlot {
+    background-color: rgb(148, 148, 148);
+    font-size: 80px;
+    height: 120px;
+    width: 80px;
+    text-align: center;
+    border: black solid;
+}
+
+button {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(138, 255, 195);
+    border-radius: 10px;
+    padding: 10px;
+    border: black solid;
+}

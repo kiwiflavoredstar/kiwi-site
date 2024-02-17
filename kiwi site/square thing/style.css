@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(141, 141, 141);
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(66, 66, 66);
+    border-bottom: black solid;
+}
+
+.blockContainer1 {
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(99, 19, 99, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockContainer2 {
+    width: 90vw;
+    height: 80vh;
+    background-color: rgba(99, 19, 99, 0.5);
+}
+
+#square {
+    background-color: rgb(138, 255, 195);
+    width: 100px;
+    height: 100px;
+}

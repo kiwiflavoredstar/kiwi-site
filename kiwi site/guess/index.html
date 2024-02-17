@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>guess the combination!!</h1>
+    </header>
+    <div class="elementContainer">
+        <h2>click the numbers to increase them!!</h2>
+        <div class="characterContainer">
+            <div onclick="increaseOne()" class="numberSlot" id="slotOne">0</div>
+            <div onclick="increaseTwo()" class="numberSlot" id="slotTwo">0</div>
+            <div onclick="increaseThree()" class="numberSlot" id="slotThree">0</div>
+            <div onclick="increaseFour()" class="numberSlot" id="slotFour">0</div>
+        </div>
+        <button onclick="check()">check!!</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

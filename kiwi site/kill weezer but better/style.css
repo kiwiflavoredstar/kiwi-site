@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 img {
     position: fixed;
     height: 585px;
@@ -35,9 +34,6 @@ img {
 }
 
 #retryContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     height: 585px;
     width: 600px;
