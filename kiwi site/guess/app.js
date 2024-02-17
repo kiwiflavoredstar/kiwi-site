@@ -2,6 +2,8 @@ const slotOne = document.getElementById('slotOne');
 const slotTwo = document.getElementById('slotTwo');
 const slotThree = document.getElementById('slotThree');
 const slotFour = document.getElementById('slotFour');
+const audioWrong = new Audio('audio/extremely-loud-incorrect-buzzer-made-with-Voicemod.mp3');
+const audioCorrect = new Audio('audio/extremely-loud-correct-buzzer.mp3');
 
 let one = 0;
 let two = 0;
@@ -51,12 +53,16 @@ function increaseFour() {
 
 function check() {
     if (one == 2 && two == 9 && three == 5 && four == 9) {
+        audioCorrect.play();
         alert("correct!!")
     }
     if (one == 0 && two == 0 && three == 5 && four == 7) {
+        audioCorrect.play();
         alert("correct!!")
     }
     else {
+        audioWrong.play();
         alert("nuh uh!!")
+        
     }
 }
