@@ -18,7 +18,7 @@ let randomNumberTwo = Math.floor(Math.random() * 10);
 let randomNumberThree = Math.floor(Math.random() * 10);
 let randomNumberFour = Math.floor(Math.random() * 10);
 
-//this beuutiful line here shows the correct random combination in the console!!
+//this beautiful line here shows the correct random combination in the console!!
 console.log(randomNumberOne, randomNumberTwo, randomNumberThree, randomNumberFour);
 
 //these four functions make it so that the numbers in the slots increase when clicked and reset when they go past nine!!
